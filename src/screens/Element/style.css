@@ -1,0 +1,204 @@
+.element {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.element .frame-wrapper {
+  background-color: #ffffff;
+  height: 1214px;
+  width: 1440px;
+}
+
+.element .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 90px;
+  left: 317px;
+  position: relative;
+}
+
+.element .header {
+  background-color: #61c140;
+  border-radius: 2px;
+  height: 65px;
+  position: relative;
+  width: 805px;
+}
+
+.element .text-wrapper {
+  color: #ffffff;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 30px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+}
+
+.element .solar-football-bold {
+  height: 27px;
+  left: 748px;
+  position: absolute;
+  top: 19px;
+  width: 27px;
+}
+
+.element .hero-page {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+}
+
+.element .rectangle {
+  height: 489px;
+  object-fit: cover;
+  position: relative;
+  width: 805px;
+}
+
+.element .div-wrapper {
+  background-color: #61c140;
+  border-radius: 2px;
+  height: 63px;
+  position: relative;
+  width: 805px;
+}
+
+.element .div {
+  color: #ffffff;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 17px;
+  font-weight: 500;
+  height: 63px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  width: 805px;
+}
+
+.element .footer {
+  background-color: #61c140;
+  border-radius: 2px;
+  height: 277px;
+  position: relative;
+  width: 805px;
+}
+
+.element .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 50px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 49px;
+}
+
+.element .frame-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 50px;
+  position: absolute;
+  top: 90px;
+}
+
+.element .frame-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  position: relative;
+}
+
+.element .img {
+  height: 19px;
+  position: relative;
+  width: 19px;
+}
+
+.element .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.element .frame-4 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 5px;
+  position: relative;
+}
+
+.element .vector {
+  height: 13px;
+  position: relative;
+  width: 19px;
+}
+
+.element .frame-5 {
+  align-items: flex-end;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 25px;
+  left: 665px;
+  position: absolute;
+  top: 90px;
+}
+
+.element .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.element .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.element .p {
+  color: #ffffff;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 219px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 206px;
+}

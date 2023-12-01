@@ -1,0 +1,487 @@
+.main-desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-desktop .frame-wrapper {
+  background-color: #ffffff;
+  height: 4495px;
+  width: 1440px;
+}
+
+.main-desktop .frame-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  left: 318px;
+  position: relative;
+  width: 805px;
+}
+
+.main-desktop .header {
+  background-color: #61c140;
+  border-radius: 2px;
+  height: 65px;
+  position: relative;
+  width: 805px;
+}
+
+.main-desktop .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 30px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+}
+
+.main-desktop .solar-football-bold {
+  height: 27px;
+  left: 748px;
+  position: absolute;
+  top: 19px;
+  width: 27px;
+}
+
+.main-desktop .hero-page {
+  height: 118px;
+  position: relative;
+  width: 805px;
+}
+
+.main-desktop .text-wrapper-4 {
+  color: #000000;
+  font-family: var(--basic-title-font-family);
+  font-size: var(--basic-title-font-size);
+  font-style: var(--basic-title-font-style);
+  font-weight: var(--basic-title-font-weight);
+  left: 246px;
+  letter-spacing: var(--basic-title-letter-spacing);
+  line-height: var(--basic-title-line-height);
+  position: absolute;
+  text-align: center;
+  top: -1px;
+}
+
+.main-desktop .text-wrapper-5 {
+  color: #000000;
+  font-family: var(--basic-text-font-family);
+  font-size: var(--basic-text-font-size);
+  font-style: var(--basic-text-font-style);
+  font-weight: var(--basic-text-font-weight);
+  left: 142px;
+  letter-spacing: var(--basic-text-letter-spacing);
+  line-height: var(--basic-text-line-height);
+  position: absolute;
+  text-align: center;
+  top: 65px;
+  width: 524px;
+}
+
+.main-desktop .video-player {
+  border-radius: 2px;
+  height: 403px;
+  position: relative;
+  width: 805px;
+}
+
+.main-desktop .slider {
+  height: 403px;
+  overflow: hidden;
+  position: relative;
+  width: 805px;
+}
+
+.main-desktop .group {
+  height: 403px;
+  left: -2415px;
+  position: relative;
+  width: 3220px;
+}
+
+.main-desktop .image-wrapper {
+  height: 403px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 805px;
+}
+
+.main-desktop .img {
+  height: 411px;
+  left: -3068px;
+  object-fit: cover;
+  position: absolute;
+  top: -5346px;
+  width: 805px;
+}
+
+.main-desktop .frame-3 {
+  background-image: url(../../../static/img/frame-20.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 403px;
+  left: 805px;
+  position: absolute;
+  top: 0;
+  width: 805px;
+}
+
+.main-desktop .frame-4 {
+  background-image: url(../../../static/img/frame-21.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 403px;
+  left: 1610px;
+  position: absolute;
+  top: 0;
+  width: 805px;
+}
+
+.main-desktop .frame-5 {
+  background-image: url(../../../static/img/frame-22.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 403px;
+  left: 2415px;
+  position: absolute;
+  top: 0;
+  width: 805px;
+}
+
+.main-desktop .list-of-games {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 2px;
+  height: 418px;
+  position: relative;
+  width: 805px;
+}
+
+.main-desktop .buttons-games {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 332px;
+  left: 24px;
+  position: absolute;
+  top: 65px;
+}
+
+.main-desktop .frame-1 {
+  flex: 0 0 auto !important;
+}
+
+.main-desktop .title-of-games {
+  align-items: center;
+  background-color: #61c140;
+  border-radius: 2px 2px 0px 0px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  left: -1px;
+  padding: 10px;
+  position: absolute;
+  top: -1px;
+  width: 805px;
+}
+
+.main-desktop .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.main-desktop .rectangle {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 0px 0px 2px 0px;
+  height: 372px;
+  left: 781px;
+  position: absolute;
+  top: 45px;
+  width: 23px;
+}
+
+.main-desktop .second-page {
+  height: 1475px;
+  position: relative;
+  width: 805px;
+}
+
+.main-desktop .text-wrapper-7 {
+  color: #000000;
+  font-family: var(--second-title-font-family);
+  font-size: var(--second-title-font-size);
+  font-style: var(--second-title-font-style);
+  font-weight: var(--second-title-font-weight);
+  left: 61px;
+  letter-spacing: var(--second-title-letter-spacing);
+  line-height: var(--second-title-line-height);
+  position: absolute;
+  top: -1px;
+  width: 684px;
+}
+
+.main-desktop .chanels {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 45px;
+  height: 1300px;
+  left: 0;
+  position: absolute;
+  top: 100px;
+}
+
+.main-desktop .frame-6 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 77px;
+  position: relative;
+}
+
+.main-desktop .frame-7 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 77px;
+  margin-bottom: -75px;
+  position: relative;
+}
+
+.main-desktop .third-page {
+  height: 616px;
+  position: relative;
+  width: 805px;
+}
+
+.main-desktop .text-wrapper-8 {
+  color: #000000;
+  font-family: var(--second-title-font-family);
+  font-size: var(--second-title-font-size);
+  font-style: var(--second-title-font-style);
+  font-weight: var(--second-title-font-weight);
+  left: 248px;
+  letter-spacing: var(--second-title-letter-spacing);
+  line-height: var(--second-title-line-height);
+  position: absolute;
+  text-align: center;
+  top: -1px;
+}
+
+.main-desktop .questions-and {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 40px;
+  left: 0;
+  position: absolute;
+  top: 100px;
+}
+
+.main-desktop .frame-8 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+
+.main-desktop .qu-es-pelota-libre {
+  color: #000000;
+  font-family: var(--third-title-font-family);
+  font-size: var(--third-title-font-size);
+  font-style: var(--third-title-font-style);
+  font-weight: var(--third-title-font-weight);
+  letter-spacing: var(--third-title-letter-spacing);
+  line-height: var(--third-title-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.main-desktop .div-2 {
+  color: #000000;
+  font-family: var(--basic-text-font-family);
+  font-size: var(--basic-text-font-size);
+  font-style: var(--basic-text-font-style);
+  font-weight: var(--basic-text-font-weight);
+  letter-spacing: var(--basic-text-letter-spacing);
+  line-height: var(--basic-text-line-height);
+  position: relative;
+  text-align: center;
+  width: 805px;
+}
+
+.main-desktop .span {
+  color: #000000;
+  font-family: var(--basic-text-font-family);
+  font-size: var(--basic-text-font-size);
+  font-style: var(--basic-text-font-style);
+  font-weight: var(--basic-text-font-weight);
+  letter-spacing: var(--basic-text-letter-spacing);
+  line-height: var(--basic-text-line-height);
+}
+
+.main-desktop .text-wrapper-9 {
+  color: #000000;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 805px;
+}
+
+.main-desktop .text-wrapper-10 {
+  color: #000000;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.main-desktop .footer {
+  background-color: #61c140;
+  border-radius: 2px;
+  height: 277px;
+  position: relative;
+  width: 805px;
+}
+
+.main-desktop .text-wrapper-11 {
+  color: #ffffff;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 50px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 49px;
+}
+
+.main-desktop .frame-9 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 50px;
+  position: absolute;
+  top: 90px;
+}
+
+.main-desktop .frame-10 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  position: relative;
+}
+
+.main-desktop .img-2 {
+  height: 19px;
+  position: relative;
+  width: 19px;
+}
+
+.main-desktop .text-wrapper-12 {
+  color: #ffffff;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.main-desktop .frame-11 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 5px;
+  position: relative;
+}
+
+.main-desktop .vector {
+  height: 13px;
+  position: relative;
+  width: 19px;
+}
+
+.main-desktop .frame-12 {
+  align-items: flex-end;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 25px;
+  left: 665px;
+  position: absolute;
+  top: 90px;
+}
+
+.main-desktop .text-wrapper-13 {
+  color: #ffffff;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.main-desktop .text-wrapper-14 {
+  color: #ffffff;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.main-desktop .text-wrapper-15 {
+  color: #ffffff;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 219px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 206px;
+}
