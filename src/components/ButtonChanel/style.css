@@ -1,0 +1,88 @@
+.button-chanel {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 2px;
+  height: 310px;
+  position: relative;
+  width: 217px;
+}
+
+.button-chanel .overlap-group {
+  background-color: #61c140;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #000000;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-radius: 0px 0px 2px 2px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  height: 64px;
+  left: 0;
+  position: absolute;
+  top: 246px;
+  width: 217px;
+}
+
+.button-chanel .div {
+  color: #ffffff;
+  font-family: var(--buttons-font-family);
+  font-size: var(--buttons-font-size);
+  font-style: var(--buttons-font-style);
+  font-weight: var(--buttons-font-weight);
+  left: 62px;
+  letter-spacing: var(--buttons-letter-spacing);
+  line-height: var(--buttons-line-height);
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  width: 90px;
+}
+
+.button-chanel .image {
+  height: 73px;
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: 99px;
+  width: 217px;
+}
+
+.button-chanel .p {
+  color: #000000;
+  font-family: var(--basic-text-font-family);
+  font-size: var(--basic-text-font-size);
+  font-style: var(--basic-text-font-style);
+  font-weight: var(--basic-text-font-weight);
+  left: 8px;
+  letter-spacing: var(--basic-text-letter-spacing);
+  line-height: var(--basic-text-line-height);
+  position: absolute;
+  text-align: center;
+  top: 180px;
+  width: 199px;
+}
+
+.button-chanel .text-wrapper-2 {
+  color: #000000;
+  font-family: "Red Hat Display", Helvetica;
+  font-size: 25px;
+  font-weight: 500;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  width: 114px;
+}
+
+.button-chanel .line {
+  height: 1px;
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: 73px;
+  width: 217px;
+}

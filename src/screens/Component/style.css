@@ -1,0 +1,33 @@
+.component {
+  background-color: #61c140;
+  border-radius: 2px;
+  height: 32px;
+  position: relative;
+  width: 122px;
+}
+
+.component .opci-n-AR {
+  color: #ffffff;
+  font-family: var(--buttons-font-family);
+  font-size: var(--buttons-font-size);
+  font-style: var(--buttons-font-style);
+  font-weight: var(--buttons-font-weight);
+  height: 32px;
+  left: 0;
+  letter-spacing: var(--buttons-letter-spacing);
+  line-height: var(--buttons-line-height);
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  width: 122px;
+}
+
+.component .text-wrapper {
+  color: #ffffff;
+  font-family: var(--buttons-font-family);
+  font-size: var(--buttons-font-size);
+  font-style: var(--buttons-font-style);
+  font-weight: var(--buttons-font-weight);
+  letter-spacing: var(--buttons-letter-spacing);
+  line-height: var(--buttons-line-height);
+}
