@@ -17,7 +17,7 @@ export const Header = ()=>{
     return (
         <header className="header">
         <div className="header-title" onClick={routeChange}>Pelota Libre TV</div>
-        <img className="solar-football-bold" alt="Solar football bold" src="./assets/solar-football-bold-duotone.svg" />
+        <img className="solar-football-bold" alt="Solar football bold" src="./public/solar-football-bold-duotone.svg" />
       </header>
     )
 }

@@ -28,7 +28,7 @@ export const MainDesktop = () => {
           <div className="slider">
             <div className="group">
               <div className="image-wrapper">
-                <img className="img" alt="Image" src="./assets/frame-30.png" />
+                <img className="img" alt="Image" src="./public/frame-30.png" />
               </div>
               <div className="frame-3" />
               <div className="frame-4" />
