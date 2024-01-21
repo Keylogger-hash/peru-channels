@@ -2,6 +2,7 @@ import React from "react";
 import { ButtonChanel } from "../../components/ButtonChanel";
 import { Frame } from "../../components/Frame";
 import VideoPlayer from "../../components/VideoPlayer/VideoPlayer";
+import { Footer } from "../../components/Footer/Footer";
 import "./style.css";
 
 export const MainDesktop = () => {
@@ -66,11 +67,6 @@ export const MainDesktop = () => {
                 <ButtonChanel />
                 <ButtonChanel />
               </div>
-              <div className="frame-6">
-                <ButtonChanel />
-                <ButtonChanel />
-                <ButtonChanel />
-              </div>
             </div>
           </div>
           <div className="third-page">
@@ -104,7 +100,7 @@ export const MainDesktop = () => {
                 </p>
               </div>
               <div className="frame-8">
-                <p className="text-wrapper-10">How to watch a match on Pelota Libre TV live and direct?</p>
+                <p className="text-wrapper-9">How to watch a match on Pelota Libre TV live and direct?</p>
                 <p className="div-2">
                   <span className="span">Para ver </span>
                   <a href="https://pelotalibre.com/" rel="noopener noreferrer" target="_blank">
@@ -127,28 +123,7 @@ export const MainDesktop = () => {
               </div>
             </div>
           </div>
-          <footer className="footer">
-            <div className="text-wrapper-11">Social</div>
-            <div className="frame-9">
-              <div className="frame-10">
-                <img className="img-2" alt="Ri twitter fill" src="/img/ri-twitter-fill.svg" />
-                <div className="text-wrapper-12">Twitter</div>
-              </div>
-              <div className="frame-10">
-                <img className="img-2" alt="Ri instagram fill" src="/img/ri-instagram-fill.svg" />
-                <div className="text-wrapper-12">Instagram</div>
-              </div>
-              <div className="frame-11">
-                <img className="vector" alt="Vector" src="/img/vector.svg" />
-                <div className="text-wrapper-12">YouTube</div>
-              </div>
-            </div>
-            <div className="frame-12">
-              <div className="text-wrapper-13">Pelota Libre</div>
-              <div className="text-wrapper-14">DMCA</div>
-            </div>
-            <p className="text-wrapper-15">Pelota Libre TV 2023 © All rights reserved.</p>
-          </footer>
+          <Footer></Footer>
         </div>
       </div>
     </div>

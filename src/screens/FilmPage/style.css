@@ -8,26 +8,26 @@
 
 .film-page .frame-wrapper {
   background-color: #ffffff;
-  height: 2163px;
-  width: 1440px;
+  width: 100%;
 }
 
 .film-page .frame {
-  align-items: flex-start;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 90px;
-  position: relative;
-  margin:auto;
-  width: 805px;
+  width: 100%;
+  max-width: 805px;
+  margin: auto;
 }
 
 .film-page .header {
   background-color: #61c140;
   border-radius: 2px;
   height: 65px;
-  position: relative;
-  width: 805px;
+  display: flex;
+  width: 100%;
+  max-width: 805px;
 }
 
 .film-page .div {
@@ -35,19 +35,18 @@
   font-family: "Red Hat Display", Helvetica;
   font-size: 15px;
   font-weight: 500;
-  left: 30px;
   letter-spacing: 0.68px;
   line-height: normal;
-  position: absolute;
-  top: 22px;
+  margin-left: 30px;
+  margin-top: 22px;
 }
 
 .film-page .solar-football-bold {
   height: 27px;
-  left: 748px;
-  position: absolute;
-  top: 19px;
   width: 27px;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 19px;
 }
 
 .film-page .canal-d-sports {
@@ -60,7 +59,7 @@
   line-height: normal;
   position: relative;
   text-align: center;
-  width: 805px;
+  width: 100%;
 }
 
 .film-page .span {
@@ -78,19 +77,14 @@
 
 .film-page .video-player {
   border-radius: 2px;
-  height: 597px;
   position: relative;
-  width: 805px;
+  width: 100%;
 }
 
 .film-page .video-player-2 {
-  background-color: #d9d9d9;
   border-radius: 2px;
-  height: 403px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 805px;
+  /* height: 403px; */
+  width: 100%;
 }
 
 .film-page .options {
@@ -98,27 +92,66 @@
   display: inline-flex;
   flex-direction: column;
   gap: 20px;
-  left: 2px;
-  position: absolute;
-  top: 443px;
+  width: 100%;
+  margin-top:40px;
 }
 
+
+@media (max-width: 1220px) {
+  .options {
+      top:100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .options {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      left: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .options {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .options {
+      display: flex;
+      flex-direction: column; 
+      gap: 10px;
+  }
+}
 .film-page .frame-2 {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   flex: 0 0 auto;
   gap: 48px;
   position: relative;
-  width: 802px;
+  width: 100%;
 }
-
+@media (max-width: 1220px) {
+  .frame-2  {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      height: auto;
+  }
+}
 .film-page .reboot-button {
   background-color: #61c140;
   height: 45px;
-  left: 0;
-  position: absolute;
-  top: 552px;
-  width: 805px;
+  width: 100%;
 }
 
 .film-page .text-wrapper-3 {
@@ -127,13 +160,11 @@
   font-size: 17px;
   font-weight: 500;
   height: 45px;
-  left: 0;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
   text-align: center;
-  top: -1px;
-  width: 805px;
+  width: 100%;
+  margin-top:25px;
 }
 
 .film-page .questions-answers {
@@ -141,9 +172,9 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
   position: relative;
-  width: 805px;
+  width: 100%;
 }
 
 .film-page .element {
@@ -153,7 +184,7 @@
   flex-direction: column;
   gap: 15px;
   position: relative;
-  width: 805px;
+  width: 100%;
 }
 
 .film-page .p {
@@ -168,7 +199,7 @@
   margin-top: -1px;
   position: relative;
   text-align: center;
-  width: 391px;
+  width: 100%;
 }
 
 .film-page .ver-canal-d-sports {
@@ -182,7 +213,7 @@
   line-height: var(--basic-text-line-height);
   position: relative;
   text-align: center;
-  width: 803px;
+  width: 100%;
 }
 
 .film-page .text-wrapper-4 {
@@ -217,7 +248,7 @@
   margin-top: -1px;
   position: relative;
   text-align: center;
-  width: 480px;
+  width: 100%;
 }
 
 .film-page .para-poder-ver-todos {
@@ -231,7 +262,7 @@
   line-height: var(--basic-text-line-height);
   position: relative;
   text-align: center;
-  width: 803px;
+  width: 100%;
 }
 
 .film-page .text-wrapper-7 {
@@ -240,13 +271,11 @@
   font-size: var(--third-title-font-size);
   font-style: var(--third-title-font-style);
   font-weight: var(--third-title-font-weight);
-  height: 65px;
   letter-spacing: var(--third-title-letter-spacing);
   line-height: var(--third-title-line-height);
-  margin-top: -1px;
   position: relative;
   text-align: center;
-  width: 480px;
+  width: 100%;
 }
 
 .film-page .text-wrapper-8 {
@@ -260,7 +289,7 @@
   line-height: var(--basic-text-line-height);
   position: relative;
   text-align: center;
-  width: 802px;
+  width: 100%;
 }
 
 .film-page .text-wrapper-9 {
@@ -269,13 +298,11 @@
   font-size: var(--third-title-font-size);
   font-style: var(--third-title-font-style);
   font-weight: var(--third-title-font-weight);
-  height: 64px;
   letter-spacing: var(--third-title-letter-spacing);
   line-height: var(--third-title-line-height);
-  margin-top: -1px;
   position: relative;
   text-align: center;
-  width: 454px;
+  width: 100%;
 }
 
 .film-page .para-ver-todos-los {
@@ -289,120 +316,6 @@
   line-height: var(--basic-text-line-height);
   position: relative;
   text-align: center;
-  width: 803px;
+  width: 100%;
 }
 
-.film-page .footer {
-  background-color: #61c140;
-  border-radius: 2px;
-  height: 277px;
-  position: relative;
-  width: 805px;
-}
-
-.film-page .text-wrapper-10 {
-  color: #ffffff;
-  font-family: "Red Hat Display", Helvetica;
-  font-size: 15px;
-  font-weight: 500;
-  left: 50px;
-  letter-spacing: 0.68px;
-  line-height: normal;
-  position: absolute;
-  top: 49px;
-}
-
-.film-page .frame-3 {
-  align-items: flex-start;
-  display: inline-flex;
-  flex-direction: column;
-  gap: 10px;
-  left: 50px;
-  position: absolute;
-  top: 90px;
-}
-
-.film-page .frame-4 {
-  align-items: flex-start;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 6px;
-  position: relative;
-}
-
-.film-page .img {
-  height: 19px;
-  position: relative;
-  width: 19px;
-}
-
-.film-page .text-wrapper-11 {
-  color: #ffffff;
-  font-family: "Red Hat Display", Helvetica;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1px;
-  position: relative;
-  width: fit-content;
-}
-
-.film-page .frame-5 {
-  align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 5px;
-  position: relative;
-}
-
-.film-page .vector {
-  height: 13px;
-  position: relative;
-  width: 19px;
-}
-
-.film-page .frame-6 {
-  align-items: flex-end;
-  display: inline-flex;
-  flex-direction: column;
-  gap: 25px;
-  left: 665px;
-  position: absolute;
-  top: 90px;
-}
-
-.film-page .text-wrapper-12 {
-  color: #ffffff;
-  font-family: "Red Hat Display", Helvetica;
-  font-size: 15px;
-  font-weight: 500;
-  letter-spacing: 0.68px;
-  line-height: normal;
-  margin-top: -1px;
-  position: relative;
-  width: fit-content;
-}
-
-.film-page .text-wrapper-13 {
-  color: #ffffff;
-  font-family: "Red Hat Display", Helvetica;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  position: relative;
-  width: fit-content;
-}
-
-.film-page .text-wrapper-14 {
-  color: #ffffff;
-  font-family: "Red Hat Display", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 219px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 206px;
-}

@@ -3,6 +3,7 @@ import { Component } from "../Component";
 import {NavLink, useLocation} from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import "./style.css";
+import { Footer } from "../../components/Footer/Footer";
 import VideoPlayer from "../../components/VideoPlayer/VideoPlayer";
 
 export const FilmPage = () => {
@@ -125,28 +126,7 @@ export const FilmPage = () => {
               </p>
             </div>
           </div>
-          <footer className="footer">
-            <div className="text-wrapper-10">Social</div>
-            <div className="frame-3">
-              <div className="frame-4">
-                <img className="img" alt="Ri twitter fill" src="/img/ri-twitter-fill.svg" />
-                <div className="text-wrapper-11">Twitter</div>
-              </div>
-              <div className="frame-4">
-                <img className="img" alt="Ri instagram fill" src="/img/ri-instagram-fill.svg" />
-                <div className="text-wrapper-11">Instagram</div>
-              </div>
-              <div className="frame-5">
-                <img className="vector" alt="Vector" src="/img/vector.svg" />
-                <div className="text-wrapper-11">YouTube</div>
-              </div>
-            </div>
-            <div className="frame-6">
-              <div className="text-wrapper-12">Pelota Libre</div>
-              <div className="text-wrapper-13">DMCA</div>
-            </div>
-            <p className="text-wrapper-14">Pelota Libre TV 2023 © All rights reserved.</p>
-          </footer>
+          <Footer></Footer>
         </div>
       </div>
     </div>

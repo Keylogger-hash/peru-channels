@@ -232,7 +232,6 @@
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 45px;
-  height: 1600px;
   top: 100px;
   left: 0;
 } 
@@ -250,6 +249,8 @@
 @media (max-width: 900px) {
   .chanels {
       width: 100%;
+      display: flex;
+      flex-direction: column;
       height: auto;
       left: auto;
   }
@@ -257,19 +258,23 @@
 
 @media (max-width: 600px) {
   .chanels {
+      display: flex;
+      flex-direction: column;
       gap: 20px;
   }
 }
 
 @media (max-width: 400px) {
   .chanels {
+      display: flex;
+      flex-direction: column; 
       gap: 10px;
   }
 }
 .main-desktop .frame-6 {
   align-items: flex-start;
   display: inline-flex;
-  flex: 0 0 auto;
+  flex-direction: column;
   gap: 77px;
   position: relative;
 }
@@ -284,8 +289,9 @@
 .main-desktop .third-page {
   height: 616px;
   position: relative;
-  width: 805px;
+  width: 100%;
 }
+
 .main-desktop .text-wrapper-8 {
   color: #000000;
   font-family: var(--second-title-font-family);
@@ -295,23 +301,23 @@
   letter-spacing: var(--second-title-letter-spacing);
   line-height: var(--second-title-line-height);
   text-align: center;
-  top: 100px;
 }
+
 .main-desktop .questions-and {
-  align-items: flex-start;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   gap: 40px;
-  left: 0;
+  /* left: 0;
   position: absolute;
-  top: 100px;
+  top: 100px; */
 }
+
 .main-desktop .frame-8 {
   align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
+  display: flex;
   flex-direction: column;
   gap: 15px;
+  text-align: center;
   position: relative;
 }
 
@@ -339,7 +345,7 @@
   line-height: var(--basic-text-line-height);
   position: relative;
   text-align: center;
-  width: 805px;
+  width: 100%;
 }
 
 .main-desktop .span {
@@ -355,14 +361,14 @@
 .main-desktop .text-wrapper-9 {
   color: #000000;
   font-family: "Red Hat Display", Helvetica;
-  font-size: 25px;
+  font-size: 1.5em;
   font-weight: 500;
   letter-spacing: 0;
   line-height: normal;
   margin-top: -1px;
   position: relative;
   text-align: center;
-  width: 805px;
+  width: 100%;
 }
 
 .main-desktop .text-wrapper-10 {
@@ -378,113 +384,3 @@
   width: fit-content;
 }
 
-.main-desktop .footer {
-  background-color: #61c140;
-  border-radius: 2px;
-  height: 277px;
-  position: relative;
-  width: 805px;
-}
-
-.main-desktop .text-wrapper-11 {
-  color: #ffffff;
-  font-family: "Red Hat Display", Helvetica;
-  font-size: 15px;
-  font-weight: 500;
-  left: 50px;
-  letter-spacing: 0.68px;
-  line-height: normal;
-  position: absolute;
-  top: 49px;
-}
-
-.main-desktop .frame-9 {
-  align-items: flex-start;
-  display: inline-flex;
-  flex-direction: column;
-  gap: 10px;
-  left: 50px;
-  position: absolute;
-  top: 90px;
-}
-
-.main-desktop .frame-10 {
-  align-items: flex-start;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 6px;
-  position: relative;
-}
-
-.main-desktop .img-2 {
-  height: 19px;
-  position: relative;
-  width: 19px;
-}
-
-.main-desktop .text-wrapper-12 {
-  color: #ffffff;
-  font-family: "Red Hat Display", Helvetica;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1px;
-  position: relative;
-  width: fit-content;
-}
-
-.main-desktop .frame-11 {
-  align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 5px;
-  position: relative;
-}
-
-.main-desktop .vector {
-  height: 13px;
-  position: relative;
-  width: 19px;
-}
-.main-desktop .frame-12 {
-  align-items: flex-end;
-  display: inline-flex;
-  flex-direction: column;
-  gap: 25px;
-  left: 665px;
-  position: absolute;
-  top: 90px;
-}
-.main-desktop .text-wrapper-13 {
-  color: #ffffff;
-  font-family: "Red Hat Display", Helvetica;
-  font-size: 15px;
-  font-weight: 500;
-  letter-spacing: 0.68px;
-  line-height: normal;
-  margin-top: -1px;
-  position: relative;
-  width: fit-content;
-}
-.main-desktop .text-wrapper-14 {
-  color: #ffffff;
-  font-family: "Red Hat Display", Helvetica;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  position: relative;
-  width: fit-content;
-}
-.main-desktop .text-wrapper-15 {
-  color: #ffffff;
-  font-family: "Red Hat Display", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 255px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 206px;
-}
