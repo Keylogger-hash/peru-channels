@@ -1,31 +1,33 @@
 .main-desktop {
   background-color: #ffffff;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
 }
 
 .main-desktop .frame-wrapper {
   background-color: #ffffff;
+  width: 100%;
 }
 
 .main-desktop .frame-2 {
-  align-items: flex-start;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 90px;
-  position: relative;
-  margin:auto;
-  width: 805px;
+  width: 100%;
+  max-width: 805px;
+  margin: auto;
 }
 
 .main-desktop .header {
   background-color: #61c140;
   border-radius: 2px;
   height: 65px;
-  position: relative;
-  width: 805px;
+  display: flex;
+  width: 100%;
+  max-width: 805px;
 }
 
 .main-desktop .text-wrapper-3 {
@@ -33,25 +35,24 @@
   font-family: "Red Hat Display", Helvetica;
   font-size: 15px;
   font-weight: 500;
-  left: 30px;
   letter-spacing: 0.68px;
   line-height: normal;
-  position: absolute;
-  top: 22px;
+  margin-left: 30px;
+  margin-top: 22px;
 }
 
 .main-desktop .solar-football-bold {
   height: 27px;
-  left: 748px;
-  position: absolute;
-  top: 19px;
   width: 27px;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 19px;
 }
 
 .main-desktop .hero-page {
   height: 118px;
-  position: relative;
-  width: 805px;
+  width: 100%;
+  max-width: 805px;
 }
 
 .main-desktop .text-wrapper-4 {
@@ -60,12 +61,9 @@
   font-size: var(--basic-title-font-size);
   font-style: var(--basic-title-font-style);
   font-weight: var(--basic-title-font-weight);
-  left: 246px;
   letter-spacing: var(--basic-title-letter-spacing);
   line-height: var(--basic-title-line-height);
-  position: absolute;
   text-align: center;
-  top: -1px;
 }
 
 .main-desktop .text-wrapper-5 {
@@ -74,52 +72,51 @@
   font-size: var(--basic-text-font-size);
   font-style: var(--basic-text-font-style);
   font-weight: var(--basic-text-font-weight);
-  left: 142px;
   letter-spacing: var(--basic-text-letter-spacing);
   line-height: var(--basic-text-line-height);
-  position: absolute;
   text-align: center;
-  top: 65px;
-  width: 524px;
+  max-width: 524px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 65px;
 }
 
 .main-desktop .video-player {
   border-radius: 2px;
   height: 403px;
-  position: relative;
-  width: 805px;
+  width: 100%;
+  max-width: 805px;
 }
 
 .main-desktop .slider {
   height: 403px;
   overflow: hidden;
-  position: relative;
-  width: 805px;
+  width: 100%;
+  max-width: 805px;
 }
 
 .main-desktop .group {
-  height: 403px;
-  left: -2415px;
-  position: relative;
-  width: 3220px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 805px;
 }
 
 .main-desktop .image-wrapper {
   height: 403px;
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  width: 805px;
+  width: 100%;
+  max-width: 805px;
 }
 
 .main-desktop .img {
   height: 411px;
-  left: -3068px;
+  width: 100%;
+  max-width: 805px;
   object-fit: cover;
-  position: absolute;
-  top: -5346px;
-  width: 805px;
 }
 
 .main-desktop .frame-3 {
@@ -127,10 +124,8 @@
   background-position: 50% 50%;
   background-size: cover;
   height: 403px;
-  left: 805px;
-  position: absolute;
-  top: 0;
-  width: 805px;
+  width: 100%;
+  max-width: 805px;
 }
 
 .main-desktop .frame-4 {
@@ -138,10 +133,8 @@
   background-position: 50% 50%;
   background-size: cover;
   height: 403px;
-  left: 1610px;
-  position: absolute;
-  top: 0;
-  width: 805px;
+  width: 100%;
+  max-width: 805px;
 }
 
 .main-desktop .frame-5 {
@@ -149,10 +142,8 @@
   background-position: 50% 50%;
   background-size: cover;
   height: 403px;
-  left: 2415px;
-  position: absolute;
-  top: 0;
-  width: 805px;
+  width: 100%;
+  max-width: 805px;
 }
 
 .main-desktop .list-of-games {
@@ -161,25 +152,28 @@
   border-color: #000000;
   border-radius: 2px;
   height: 418px;
-  position: relative;
-  width: 805px;
+  width: 100%;
+  max-width: 805px;
+  margin-top: 20px;
 }
 
 .main-desktop .buttons-games {
-  align-items: flex-start;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 332px;
-  left: 24px;
-  position: absolute;
-  top: 65px;
+  margin-left: 24px;
+  margin-top: 65px;
 }
 
 .main-desktop .frame-1 {
   flex: 0 0 auto !important;
 }
 
+/* .main-desktop .title-of-games {
+  background-color: #61c140;
+  border-radius: 2px 2px 0px 0px;
+  display: flex;
+  gap: 15px */
 .main-desktop .title-of-games {
   align-items: center;
   background-color: #61c140;
@@ -193,7 +187,6 @@
   top: -1px;
   width: 805px;
 }
-
 .main-desktop .text-wrapper-6 {
   color: #ffffff;
   font-family: "Red Hat Display", Helvetica;
@@ -206,7 +199,6 @@
   text-align: center;
   width: fit-content;
 }
-
 .main-desktop .rectangle {
   background-color: #ffffff;
   border: 1px solid;
@@ -218,13 +210,11 @@
   top: 45px;
   width: 23px;
 }
-
 .main-desktop .second-page {
-  height: 1475px;
+  /* height: 1475px;
   position: relative;
-  width: 805px;
+  width: 805px; */
 }
-
 .main-desktop .text-wrapper-7 {
   color: #000000;
   font-family: var(--second-title-font-family);
@@ -235,18 +225,47 @@
   line-height: var(--second-title-line-height);
   text-align: center;
 }
-
-.main-desktop .chanels {
+.main-desktop .chanels {            
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: flex-start;
-  display: inline-flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 45px;
-  height: 1300px;
-  left: 0;
-  position: absolute;
+  height: 1600px;
   top: 100px;
+  left: 0;
+} 
+
+@media (max-width: 1220px) {
+  .chanels {
+      top:100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+  }
 }
 
+@media (max-width: 900px) {
+  .chanels {
+      width: 100%;
+      height: auto;
+      left: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .chanels {
+      gap: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .chanels {
+      gap: 10px;
+  }
+}
 .main-desktop .frame-6 {
   align-items: flex-start;
   display: inline-flex;
@@ -254,7 +273,6 @@
   gap: 77px;
   position: relative;
 }
-
 .main-desktop .frame-7 {
   align-items: flex-start;
   display: inline-flex;
@@ -263,27 +281,22 @@
   margin-bottom: -75px;
   position: relative;
 }
-
 .main-desktop .third-page {
   height: 616px;
   position: relative;
   width: 805px;
 }
-
 .main-desktop .text-wrapper-8 {
   color: #000000;
   font-family: var(--second-title-font-family);
   font-size: var(--second-title-font-size);
   font-style: var(--second-title-font-style);
   font-weight: var(--second-title-font-weight);
-  left: 248px;
   letter-spacing: var(--second-title-letter-spacing);
   line-height: var(--second-title-line-height);
-  position: absolute;
   text-align: center;
-  top: -1px;
+  top: 100px;
 }
-
 .main-desktop .questions-and {
   align-items: flex-start;
   display: inline-flex;
@@ -293,7 +306,6 @@
   position: absolute;
   top: 100px;
 }
-
 .main-desktop .frame-8 {
   align-items: center;
   display: inline-flex;
@@ -435,7 +447,6 @@
   position: relative;
   width: 19px;
 }
-
 .main-desktop .frame-12 {
   align-items: flex-end;
   display: inline-flex;
@@ -445,7 +456,6 @@
   position: absolute;
   top: 90px;
 }
-
 .main-desktop .text-wrapper-13 {
   color: #ffffff;
   font-family: "Red Hat Display", Helvetica;
@@ -457,7 +467,6 @@
   position: relative;
   width: fit-content;
 }
-
 .main-desktop .text-wrapper-14 {
   color: #ffffff;
   font-family: "Red Hat Display", Helvetica;
@@ -468,7 +477,6 @@
   position: relative;
   width: fit-content;
 }
-
 .main-desktop .text-wrapper-15 {
   color: #ffffff;
   font-family: "Red Hat Display", Helvetica;
@@ -479,5 +487,4 @@
   line-height: normal;
   position: absolute;
   top: 206px;
-
 }

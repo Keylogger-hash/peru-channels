@@ -43,13 +43,10 @@ export const MainDesktop = () => {
               <Frame className="frame-1" />
               <Frame className="frame-1" />
               <Frame className="frame-1" />
-              <Frame className="frame-1" />
-              <Frame className="frame-1" />
             </div>
-            <div className="title-of-games">
+            {/* <div className="title-of-games">
               <p className="text-wrapper-6">Sports agenda for Friday, Decamber 1, 2023</p>
-            </div>
-            <div className="rectangle" />
+            </div> */}
           </div>
           <div className="second-page">
             <p className="text-wrapper-7">Watch live online football channels</p>
@@ -69,7 +66,7 @@ export const MainDesktop = () => {
                 <ButtonChanel />
                 <ButtonChanel />
               </div>
-              <div className="frame-7">
+              <div className="frame-6">
                 <ButtonChanel />
                 <ButtonChanel />
                 <ButtonChanel />

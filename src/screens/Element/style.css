@@ -8,25 +8,28 @@
 
 .element .frame-wrapper {
   background-color: #ffffff;
-  height: 1214px;
-  width: 1440px;
+  min-width: 100%;
+  height: auto;
 }
 
 .element .frame {
-  align-items: flex-start;
+  align-items: center;
   display: inline-flex;
   flex-direction: column;
   gap: 90px;
-  left: 317px;
   position: relative;
 }
 
 .element .header {
   background-color: #61c140;
   border-radius: 2px;
-  height: 65px;
+  flex-wrap: wrap;
+  width: 100%;
   position: relative;
-  width: 805px;
+  height: auto;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .element .text-wrapper {
@@ -34,43 +37,43 @@
   font-family: "Red Hat Display", Helvetica;
   font-size: 15px;
   font-weight: 500;
-  left: 30px;
   letter-spacing: 0.68px;
   line-height: normal;
-  position: absolute;
-  top: 22px;
+  position: relative;
+  text-align: center;
 }
 
 .element .solar-football-bold {
   height: 27px;
-  left: 748px;
-  position: absolute;
-  top: 19px;
   width: 27px;
+  position: relative;
+  top: 5px;
 }
 
 .element .hero-page {
-  align-items: flex-start;
+  align-items: center;
   display: inline-flex;
-  flex: 0 0 auto;
   flex-direction: column;
   gap: 50px;
   position: relative;
 }
 
 .element .rectangle {
-  height: 489px;
+  min-width: 100%;
+  max-height: 489px;
   object-fit: cover;
   position: relative;
-  width: 805px;
 }
 
 .element .div-wrapper {
   background-color: #61c140;
   border-radius: 2px;
-  height: 63px;
+  height: auto;
   position: relative;
-  width: 805px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .element .div {
@@ -78,22 +81,21 @@
   font-family: "Red Hat Display", Helvetica;
   font-size: 17px;
   font-weight: 500;
-  height: 63px;
-  left: 0;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
+  position: relative;
   text-align: center;
-  top: -1px;
-  width: 805px;
+  width: max-content;
 }
 
 .element .footer {
   background-color: #61c140;
   border-radius: 2px;
-  height: 277px;
+  height: auto;
   position: relative;
-  width: 805px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .element .text-wrapper-2 {
@@ -101,25 +103,24 @@
   font-family: "Red Hat Display", Helvetica;
   font-size: 15px;
   font-weight: 500;
-  left: 50px;
   letter-spacing: 0.68px;
   line-height: normal;
-  position: absolute;
-  top: 49px;
+  position: relative;
+  text-align: center;
+  margin-top: 45px;
 }
 
 .element .frame-2 {
-  align-items: flex-start;
+  align-items: center;
   display: inline-flex;
   flex-direction: column;
   gap: 10px;
-  left: 50px;
-  position: absolute;
-  top: 90px;
+  position: relative;
+  margin-top: 35px;
 }
 
 .element .frame-3 {
-  align-items: flex-start;
+  align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
   gap: 6px;
@@ -150,6 +151,7 @@
   flex: 0 0 auto;
   gap: 5px;
   position: relative;
+  margin-top: 30px;
 }
 
 .element .vector {
@@ -159,13 +161,11 @@
 }
 
 .element .frame-5 {
-  align-items: flex-end;
+  align-items: center;
   display: inline-flex;
   flex-direction: column;
-  gap: 25px;
-  left: 665px;
-  position: absolute;
-  top: 90px;
+  width: 100%;
+  margin-top: 25px;
 }
 
 .element .text-wrapper-4 {
@@ -173,10 +173,11 @@
   font-family: "Red Hat Display", Helvetica;
   font-size: 15px;
   font-weight: 500;
+  margin-top: -1px;
   letter-spacing: 0.68px;
   line-height: normal;
-  margin-top: -1px;
   position: relative;
+  text-align: center;
   width: fit-content;
 }
 
@@ -187,18 +188,20 @@
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
+  margin-top: 15px;
   position: relative;
+  text-align: center;
   width: fit-content;
 }
 
 .element .p {
   color: #ffffff;
+  margin-top: 0;
   font-family: "Red Hat Display", Helvetica;
   font-size: 15px;
   font-weight: 400;
-  left: 219px;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  top: 206px;
+  position: relative;
+  text-align: center;
 }
