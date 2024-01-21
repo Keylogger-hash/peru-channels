@@ -11,12 +11,12 @@ export const Header = ()=>{
       }
       let navigate = useNavigate(); 
       const routeChange = () =>{ 
-        let path = `/peru-channels`; 
+        let path = `/peru-channels/`; 
         navigate(path);
       }
     return (
         <header className="header">
-        <div className="div" onClick={routeChange}>Pelota Libre TV</div>
+        <div className="header-title" onClick={routeChange}>Pelota Libre TV</div>
         <img className="solar-football-bold" alt="Solar football bold" src="./assets/solar-football-bold-duotone.svg" />
       </header>
     )

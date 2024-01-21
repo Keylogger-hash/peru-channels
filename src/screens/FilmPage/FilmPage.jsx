@@ -8,11 +8,6 @@ export const FilmPage = () => {
   const reloadPage = ()=>{
     window.location.reload()
   }
-  let navigate = useNavigate(); 
-  const routeChange = () =>{ 
-    let path = `/peru-channels`; 
-    navigate(path);
-  }
   return (
     <div className="film-page">
       <div className="frame-wrapper">

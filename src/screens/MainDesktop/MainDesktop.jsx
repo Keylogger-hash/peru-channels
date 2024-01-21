@@ -6,6 +6,7 @@ import { Footer } from "../../components/Footer/Footer";
 import "./style.css";
 import { Header } from "../../components/Header/Header";
 
+
 export const MainDesktop = () => {
   return (
     <div className="main-desktop">
