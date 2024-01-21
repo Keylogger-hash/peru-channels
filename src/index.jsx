@@ -11,7 +11,7 @@ export default function App(){
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" basename="/peru-channels">
+                <Route path="/" >
                     <Route index element={<MainDesktop/>}></Route>
                     <Route path="*" element={<Element></Element>}></Route>
                     <Route path="/detail" element={<FilmPage></FilmPage>}></Route>
