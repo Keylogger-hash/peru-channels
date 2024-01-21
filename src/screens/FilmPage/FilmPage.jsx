@@ -3,6 +3,7 @@ import { Component } from "../Component";
 import {NavLink, useLocation} from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import "./style.css";
+import VideoPlayer from "../../components/VideoPlayer/VideoPlayer";
 
 export const FilmPage = () => {
   const reloadPage = ()=>{
@@ -30,7 +31,7 @@ export const FilmPage = () => {
           </p>
           <div className="video-player">
             <div className="video-player-2" >
-            <img alt="Image" width={805} height={403} src="/img/frame-30.png" />
+              <VideoPlayer></VideoPlayer>
             </div>
             <div className="options">
               <div className="frame-2">
@@ -144,7 +145,7 @@ export const FilmPage = () => {
               <div className="text-wrapper-12">Pelota Libre</div>
               <div className="text-wrapper-13">DMCA</div>
             </div>
-            <p className="text-wrapper-14">Pelota Libre TV 2023 © Todos los derechos reservados.</p>
+            <p className="text-wrapper-14">Pelota Libre TV 2023 © All rights reserved.</p>
           </footer>
         </div>
       </div>

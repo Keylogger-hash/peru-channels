@@ -1,6 +1,7 @@
 import React from "react";
 import { ButtonChanel } from "../../components/ButtonChanel";
 import { Frame } from "../../components/Frame";
+import VideoPlayer from "../../components/VideoPlayer/VideoPlayer";
 import "./style.css";
 
 export const MainDesktop = () => {
@@ -21,8 +22,8 @@ export const MainDesktop = () => {
             </p>
           </div>
           <div className="video-player" >
-            <img alt="Image" width={805} height={403} src="/img/frame-30.png" />
-          </div>
+          <VideoPlayer></VideoPlayer>
+            </div>
 
           <div className="slider">
             <div className="group">
@@ -149,7 +150,7 @@ export const MainDesktop = () => {
               <div className="text-wrapper-13">Pelota Libre</div>
               <div className="text-wrapper-14">DMCA</div>
             </div>
-            <p className="text-wrapper-15">Pelota Libre TV 2023 © Todos los derechos reservados.</p>
+            <p className="text-wrapper-15">Pelota Libre TV 2023 © All rights reserved.</p>
           </footer>
         </div>
       </div>

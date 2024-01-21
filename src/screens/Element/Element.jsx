@@ -42,7 +42,7 @@ export const Element = () => {
               <div className="text-wrapper-4">Pelota Libre</div>
               <div className="text-wrapper-5">DMCA</div>
             </div>
-            <p className="p">Pelota Libre TV 2023 © Todos los derechos reservados.</p>
+            <p className="p">Pelota Libre TV 2023 © All rights reserved.</p>
           </footer>
         </div>
       </div>

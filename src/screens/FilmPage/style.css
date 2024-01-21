@@ -14,11 +14,12 @@
 
 .film-page .frame {
   align-items: flex-start;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   gap: 90px;
-  left: 317px;
   position: relative;
+  margin:auto;
+  width: 805px;
 }
 
 .film-page .header {
