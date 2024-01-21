@@ -11,10 +11,10 @@ export default function App(){
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" >
+                <Route path="peru-channels">
                     <Route index element={<MainDesktop/>}></Route>
                     <Route path="*" element={<Element></Element>}></Route>
-                    <Route path="/detail" element={<FilmPage></FilmPage>}></Route>
+                    <Route path="/peru-channels/detail" element={<FilmPage></FilmPage>}></Route>
                 </Route>
             </Routes>
         </BrowserRouter>

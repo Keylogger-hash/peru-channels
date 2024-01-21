@@ -1,28 +1,23 @@
 import React from "react";
 import { Component } from "../Component";
-import {NavLink, useLocation} from 'react-router-dom';
-import { useNavigate } from "react-router-dom";
 import "./style.css";
 import { Footer } from "../../components/Footer/Footer";
 import VideoPlayer from "../../components/VideoPlayer/VideoPlayer";
-
+import { Header } from "../../components/Header/Header";
 export const FilmPage = () => {
   const reloadPage = ()=>{
     window.location.reload()
   }
   let navigate = useNavigate(); 
   const routeChange = () =>{ 
-    let path = `/`; 
+    let path = `/peru-channels`; 
     navigate(path);
   }
   return (
     <div className="film-page">
       <div className="frame-wrapper">
         <div className="frame">
-          <header className="header">
-            <div className="div" onClick={routeChange}>Pelota Libre TV</div>
-            <img className="solar-football-bold" alt="Solar football bold" src="/img/solar-football-bold-duotone.svg" />
-          </header>
+          <Header></Header>
           <p className="canal-d-sports">
             <span className="span">
               Canal D Sports Online LIVE and direct

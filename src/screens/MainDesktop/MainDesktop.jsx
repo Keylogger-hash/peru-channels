@@ -4,16 +4,14 @@ import { Frame } from "../../components/Frame";
 import VideoPlayer from "../../components/VideoPlayer/VideoPlayer";
 import { Footer } from "../../components/Footer/Footer";
 import "./style.css";
+import { Header } from "../../components/Header/Header";
 
 export const MainDesktop = () => {
   return (
     <div className="main-desktop">
       <div className="frame-wrapper">
         <div className="frame-2">
-          <header className="header">
-            <div className="text-wrapper-3">Pelota Libre TV</div>
-            <img className="solar-football-bold" alt="Solar football bold" src="/img/solar-football-bold-duotone.svg" />
-          </header>
+          <Header></Header>
           <div className="hero-page">
             <div className="text-wrapper-4">Pelota Libre TV</div>
             <p className="text-wrapper-5">
@@ -29,7 +27,7 @@ export const MainDesktop = () => {
           <div className="slider">
             <div className="group">
               <div className="image-wrapper">
-                <img className="img" alt="Image" src="/img/frame-30.png" />
+                <img className="img" alt="Image" src="./assets/frame-30.png" />
               </div>
               <div className="frame-3" />
               <div className="frame-4" />

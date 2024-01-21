@@ -9,7 +9,7 @@ import { useNavigate } from "react-router";
 export const ButtonChanel = () => {
   let navigate = useNavigate(); 
   const routeChange = () =>{ 
-    let path = `/detail`; 
+    let path = `/peru-channels/detail`; 
     navigate(path);
   }
   return (
@@ -17,10 +17,10 @@ export const ButtonChanel = () => {
       <div className="overlap-group">
         <div className="div" >See Chanel</div>
       </div>
-      <img className="image" alt="Image" src="/img/image-1.png" />
+      <img className="image" alt="Image" src="./assets/image-1.png" />
       <p className="p">Watch DirecTV Sports online live and direct</p>
       <div className="text-wrapper-2">D Sports</div>
-      <img className="line" alt="Line" src="/img/line-1.svg" />
+      <img className="line" alt="Line" src="./assets/line-1.svg" />
     </div>
   );
 };

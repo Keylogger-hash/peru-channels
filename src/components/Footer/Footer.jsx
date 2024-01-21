@@ -11,15 +11,15 @@ export const Footer = () => {
         <div className="text-wrapper-11">Social</div>
         <div className="frame-9">
           <div className="frame-10">
-            <img className="img-2" alt="Ri twitter fill" src="/img/ri-twitter-fill.svg" />
+            <img className="img-2" alt="Ri twitter fill" src="./assets/ri-twitter-fill.svg" />
             <div className="text-wrapper-12">Twitter</div>
           </div>
           <div className="frame-10">
-            <img className="img-2" alt="Ri instagram fill" src="/img/ri-instagram-fill.svg" />
+            <img className="img-2" alt="Ri instagram fill" src="./assets/ri-instagram-fill.svg" />
             <div className="text-wrapper-12">Instagram</div>
           </div>
           <div className="frame-11">
-            <img className="vector" alt="Vector" src="/img/vector.svg" />
+            <img className="vector" alt="Vector" src="./assets/vector.svg" />
             <div className="text-wrapper-12">YouTube</div>
           </div>
         </div>
