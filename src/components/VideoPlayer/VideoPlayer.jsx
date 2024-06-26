@@ -1,6 +1,20 @@
 import React, { useEffect, useRef, useState } from "react";
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
+import {
+  MediaController,
+  MediaLoadingIndicator,
+  MediaControlBar,
+  MediaPlayButton,
+  MediaSeekBackwardButton,
+  MediaSeekForwardButton,
+  MediaMuteButton,
+  MediaVolumeRange,
+  MediaTimeRange,
+  MediaTimeDisplay,
+  MediaPlaybackRateButton,
+  MediaFullscreenButton
+} from "media-chrome/react"
 
 const Video = (props) => {
   const videoNode = useRef(null);
@@ -24,23 +38,52 @@ const Video = (props) => {
   );
 };
 
-export default function VideoPlayer() {
+export default function VideoPlayer({streams}) {
+  let sources = []
+  if (streams.length>0){
+    sources = streams.map((stream)=>{
+      return {
+        src: stream,
+        type: "application/vnd.apple.mpegurl"
+      }
+    })
+  } else{
+    sources =  []
+  }
   const play = {
     fill: true,
     fluid: true,
-    autoplay: true,
     controls: true,
     preload: "metadata",
-    sources: [
-      {
-        src: "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-        type: "application/x-mpegURL"
-      }
-    ]
+    muted: true,
+    autoplay: true,
+    sources: sources
   };
   return (
     <div className="App">
-      <Video width={800} {...play} />
+      
+      {streams.length > 0?
+      <MediaController>
+        <hls-video
+          src={streams[0]}
+          slot="media"
+          crossorigin
+          autoplay
+          muted
+        ></hls-video>
+        <MediaControlBar>
+          <MediaPlayButton></MediaPlayButton>
+          <MediaSeekBackwardButton></MediaSeekBackwardButton>
+          <MediaSeekForwardButton ></MediaSeekForwardButton>
+          <MediaMuteButton></MediaMuteButton>
+          <MediaVolumeRange></MediaVolumeRange>
+          <MediaTimeRange></MediaTimeRange>
+          <MediaTimeDisplay showduration remaining></MediaTimeDisplay>
+          <MediaPlaybackRateButton></MediaPlaybackRateButton>
+          <MediaFullscreenButton></MediaFullscreenButton>
+        </MediaControlBar>
+      </MediaController>
+      :<img width={800} src={"https://www.stellarinfo.com/blog/wp-content/uploads/2018/05/Media-file-error-in-online-video.png"}></img>}
     </div>
   );
 }

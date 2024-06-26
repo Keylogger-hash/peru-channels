@@ -1,0 +1,8 @@
+.CheckboxMenu .dropdown-item:hover,
+.CheckboxMenu .dropdown-item:active {
+  background-color: transparent;
+  color: black;
+}
+.color-green {
+  color:#61c140
+}

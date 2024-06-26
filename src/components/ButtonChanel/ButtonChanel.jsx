@@ -6,21 +6,26 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 import React from "react";
 import "./style.css";
 import { useNavigate } from "react-router";
-export const ButtonChanel = () => {
+export const ButtonChanel = ({channel}) => {
   let navigate = useNavigate(); 
+  const id = channel.id
   const routeChange = () =>{ 
-    let path = `/peru-channels/detail`; 
+    let path = `/peru-channels/detail/${id}`; 
     navigate(path);
   }
   return (
     <div className="button-chanel" onClick={routeChange}>
+      <div className="title">{channel.channel_name}</div>
+      <img className="image" alt="Image" src={channel.logo}/>
       <div className="overlap-group">
-        <div className="div" >See Chanel</div>
+        See channel
       </div>
-      <img className="image" alt="Image" src="./public/image-1.png" />
-      <p className="p">Watch DirecTV Sports online live and direct</p>
-      <div className="text-wrapper-2">D Sports</div>
-      <img className="line" alt="Line" src="./public/line-1.svg" />
+      {/* <div className="title">{channel.channel_name}</div>
+      <img className="image" alt="Image" src={channel.logo}/>
+      <p className="description">{channel.channel_name}</p>
+      <div className="overlap-group">
+        See Chanel
+      </div> */}
     </div>
   );
 };

@@ -21,15 +21,6 @@
   margin: auto;
 }
 
-.main-desktop .header {
-  background-color: #61c140;
-  border-radius: 2px;
-  height: 65px;
-  display: flex;
-  width: 100%;
-  max-width: 805px;
-}
-
 .main-desktop .text-wrapper-3 {
   color: #ffffff;
   font-family: "Red Hat Display", Helvetica;
@@ -41,13 +32,7 @@
   margin-top: 22px;
 }
 
-.main-desktop .solar-football-bold {
-  height: 27px;
-  width: 27px;
-  margin-left: auto;
-  margin-right: 30px;
-  margin-top: 19px;
-}
+
 
 .main-desktop .hero-page {
   height: 118px;
@@ -147,14 +132,21 @@
 }
 
 .main-desktop .list-of-games {
-  background-color: #ffffff;
-  border: 1px solid;
-  border-color: #000000;
-  border-radius: 2px;
-  height: 418px;
+  height: 500px;
   width: 100%;
   max-width: 805px;
   margin-top: 20px;
+}
+
+.main-desktop .iframe-games{
+  /* border-left: 4px solid;
+  border-right: 4px solid;
+  border:4px solid;
+  border-color: #000000;
+  overflow-x: scroll;
+  border-radius: 2px;
+  border-bottom:1px; */
+
 }
 
 .main-desktop .buttons-games {
@@ -211,6 +203,9 @@
   width: 23px;
 }
 .main-desktop .second-page {
+  display: "flex";
+  flex-direction: column;
+  column-gap: 40px;
   /* height: 1475px;
   position: relative;
   width: 805px; */
@@ -225,14 +220,12 @@
   line-height: var(--second-title-line-height);
   text-align: center;
 }
-.main-desktop .chanels {            
+.main-desktop .chanels { 
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
   flex-wrap: wrap;
-  gap: 45px;
-  top: 100px;
+  gap:76px;
+  top:100px;
   left: 0;
 } 
 
@@ -242,6 +235,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       height: auto;
   }
 }
@@ -384,3 +378,8 @@
   width: fit-content;
 }
 
+.main-desktop load-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

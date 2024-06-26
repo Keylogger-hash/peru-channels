@@ -6,12 +6,14 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 import React from "react";
 import "./style.css";
 
-export const Frame = ({ className }) => {
+export const Frame = ({ name,start_time,className }) => {
+  const start_tournament_time = new Date(start_time).toLocaleDateString('ru-RU')
+
   return (
     <div className={`frame ${className}`}>
-      <div className="text-wrapper">22:35</div>
+      <div className="text-wrapper">{start_tournament_time}</div>
       <img className="ri-football-fill" alt="Ri football fill" src="./public/ri-football-fill.svg" />
-      <p className="eliminatorias"> Eliminatorias Eurocopa: España vs. Chipre</p>
+      <p className="eliminatorias"> {name}</p>
     </div>
   );
 };
